@@ -9,14 +9,7 @@ export default function Board() {
     nextId++;
     console.log(nextId);
   }
-  const [items, setItems] = useState([
-    {
-      id: "",
-      date: "",
-      text: "",
-      completed: "",
-    },
-  ]);
+  const [items, setItems] = useState([]);
 
   const [inputValue, setInputValue] = useState("");
 
